@@ -7,6 +7,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { AboutComponent } from './pages/about/about.component';
 import { AmenagementComponent } from './pages/amenagement/amenagement.component';
 import { ServicesComponent } from './pages/services/services.component';
+import { BlogComponent } from './pages/blog/blog.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { ServicesComponent } from './pages/services/services.component';
     ContactComponent,
     AboutComponent,
     AmenagementComponent,
-    ServicesComponent
+    ServicesComponent,
+    BlogComponent
   ],
   imports: [
     CommonModule,

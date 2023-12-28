@@ -16,13 +16,6 @@ const routes: Routes = [
       import('./public/public.module').then((m) => m.PublicModule),
   },
   
-// <div class="main-wrapper home-six">
-// <app-header></app-header>
-// <p>blog works!</p>
-//  <app-footer></app-footer>
-// </div>
-
-  // pour charger le secure module
   {
     path: 'auth',
     loadChildren: () =>
